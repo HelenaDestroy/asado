@@ -8,18 +8,6 @@ fondo.objeto = new Image();
 fondo.objeto.src = fondo.url;
 fondo.objeto.addEventListener("load", cargarFondo);
 
-var musiquita = {
-    url: "di.mp3"
-}
-musiquita.objeto = new Audio();
-musiquita.objeto.src = musiquita.url;
-musiquita.objeto.addEventListener("play", cargarMusica);
-
-function cargarMusica(){
- console.log("r");
-// musiquita.objeto.autoplay();} por qué no funciona?
-}
-
 var cerdito = {
     url: "cerdito.png",
     cargaOk: false
@@ -57,8 +45,8 @@ if (nubes == true)
    {for (var i=0; i<cantidad; i++) 
     {
     papel.drawImage(nube.objeto, xn, yn);
-    var xn = aleatorio (82, 420);
-    var yn = aleatorio (82, 420);
+    var xn = aleatorio (82, 390);
+    var yn = aleatorio (82, 390);
     }
     }
 }
@@ -137,5 +125,8 @@ function dibujarCerdito()
 }
 }
 
-
-
+// do {
+//     code block to be executed
+//   }
+// //   while (cerdito.objeto. == ;
+// //     cerdito.objeto.y ==)

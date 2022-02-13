@@ -4,15 +4,34 @@ font-size: 2.0rem;
 }
 html {
     font-size:62.5%;}
+.main {display: flex; height: 550px;
+width: 900;}
+.div {margin-top: 20px;
+    height: 300px;
+    width: 350px;
+     }
+    h3 {
+        height: fit-content;
+        width: fit-content;
+    }
+    h5{color:coral;text-align: center;}
+.div2{  align-content: center;
+margin-top: 100px;
+margin-left: 20px;
+height: fit-content;
+width: fit-content;
+}
 
-div {
-    display: flex;
-}
-canvas {
+.div3 {display:inline-flex;
     margin-left: 33px;
+    margin-top: 30px;
 }
-img {border-radius: 1px;
-border-color: blueviolet;
+
+
+img {border-radius: 8px;
+border-color: rgba(255, 148, 60, 0.63);
 border-style: double;
 border-width: 4px;
+display: flexbox;
+margin-top: 40px;
 }
